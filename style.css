@@ -13,7 +13,6 @@
 }
 
 main{
-    /*alinea distribucion de espacio en los items que estan dentro de la interface*/
     display: flex;
     margin-bottom: 56px;
     margin-left: 80px;
@@ -23,13 +22,11 @@ main{
     border: none;
     color: #0A3871;
     margin-top: 50px;
-    /*transformar todo en minusctula*/
     text-transform: lowercase;
     resize: none;
 }
 
 ::placeholder {color: #0A3871;}
-/*Esto es paras quitar el delineado cuando el mouse se para alli*/
 .text-area:focus{
     outline: none;
 }
@@ -63,11 +60,8 @@ main{
 }
 
 .botones{
-    /*movimiento flexible uno al lado del otro*/
     display: flex;
     margin-top: 18px;
-    /*margin: 18px 0 0 0;*/
-    /*espacio entre los botones:*/
     gap: 54px;
 }
 
@@ -75,7 +69,6 @@ main{
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    /*color de la letra*/
     color: #0A3871;
     font-weight: bold;
     cursor: pointer;
@@ -85,7 +78,6 @@ main{
 }
 
 .btn-desencriptar:hover{
-    /*background-color: darkorange;*/
     transform: scale(1.08) ;
     
 }
@@ -96,7 +88,6 @@ main{
     background: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    /*color de la letra*/
     color: white;
     cursor: pointer;
     height: 55px;
@@ -105,12 +96,10 @@ main{
 }
 
 .btn-encriptar:hover{
-    /*background-color: darkorange;*/
     transform: scale(1.08) ;
     
 }
 
-/*el botón de copiar, al tener position: absolute;, se posicionará de manera absoluta en relación con el elemento .mensaje en lugar de posicionarse en relación con la ventana del navegador o cualquier otro elemento.*/
 
 
 
@@ -118,7 +107,6 @@ main{
     
     border: 1px solid #0A3871;
     border-radius: 24px;
-    /*color de la letra*/
     color: #0A3871;
     cursor: pointer;
     height: 47px;
@@ -128,7 +116,6 @@ main{
 }
 
 .copiar:hover{
-    /*background-color: darkorange;*/
     border: 1.8px solid #0A3871;
     transform: scale(1.02) ;
     
